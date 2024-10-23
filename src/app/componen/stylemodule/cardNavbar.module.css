@@ -1,0 +1,74 @@
+/* app/componen/stylemodule/navbar.module.css */
+.navbar {
+    background-color: #ebebeb; /* Warna latar belakang navbar */
+    padding: 10px 20px; /* Padding untuk navbar */
+}
+
+.navbar2 {
+    background-color: #0b4374;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.navbar3 {
+    background-color: #043e05;
+    border: 2px dotted rgb(12, 221, 127);
+    border-radius: 30px 0px 0px 0px;
+    padding: 10px 20px;
+}
+.navbar__container {
+    display: flex;
+    justify-content: space-between; /* Ruang antara brand dan tombol */
+    align-items: center; /* Vertikal pusat */
+}
+
+.navbar__brand {
+    color: black;
+    font-size: 24px; /* Ukuran font untuk brand */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.navbar__buttons {
+    display: flex;
+    gap: 10px; /* Jarak antar tombol */
+}
+
+.navbar__button {
+    padding: 10px 20px; /* Padding untuk tombol */
+    border: none;
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Menunjukkan tombol bisa diklik */
+}
+
+/* Gaya untuk berbagai jenis tombol */
+.navbar__button_primary {
+    background-color: #ebebeb; 
+    color: black; 
+}
+
+.navbar__button_secondary {
+    background-color: #ebebeb; 
+    color: black; 
+}
+
+.navbar__button_login {
+    background-color: #ebebeb; 
+    color: black; 
+}
+
+.navbar__button_danger {
+    background-color: #ebebeb; 
+    color: black; 
+}
+
+.navbar__button_warning {
+    background-color: #ffc107; /* Kuning */
+    color: black;
+}
+
+/* Efek hover untuk tombol */
+.navbar__button:hover {
+    opacity: 0.8; /* Efek saat hover */
+    background-color: #66D9A3;
+    color: white;
+}
